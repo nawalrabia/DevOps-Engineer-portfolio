@@ -1,1 +1,42 @@
 # az400-azure-boards-agile-planning
+# Azure Boards Agile Planning and Portfolio Management
+
+## Project Overview
+
+This project demonstrates Agile planning and portfolio management using Azure DevOps Boards as part of AZ-400 DevOps Engineer certification preparation.
+
+## Objectives
+
+* Manage Teams and Area Paths
+* Configure Iterations and Sprints
+* Create and Manage Work Items
+* Sprint Capacity Planning
+* Customize Kanban Boards
+* Create Project Dashboards
+* Implement Scrum-based Agile Practices
+
+## Technologies Used
+
+* Azure DevOps
+* Azure Boards
+* Scrum Framework
+* Kanban Boards
+
+## Skills Demonstrated
+
+* Agile Planning
+* Sprint Management
+* Portfolio Management
+* Work Item Tracking
+* Capacity Planning
+* Dashboard Reporting
+
+## Project Structure
+
+* docs/ - Project documentation
+* screenshots/ - Azure DevOps screenshots
+* diagrams/ - Architecture and workflow diagrams
+
+## Status
+
+In Progress
