@@ -40,3 +40,17 @@ This project demonstrates Agile planning and portfolio management using Azure De
 ## Status
 
 In Progress
+
+## Exercise 1 - Team Management
+
+### Team Creation
+
+![Team Creation](screenshots/team-created.png)
+
+### Sprint Configuration
+
+![Sprint Configuration](screenshots/sprint_creation.png)
+
+### Area Paths
+
+![Area Paths](screenshots/area_subarea.png)
