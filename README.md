@@ -68,4 +68,4 @@ In Progress
 
 ### Tasks
 
-![Tasks](screenshots/task-created.png)
+![Tasks](screenshots/task_created.png)
