@@ -69,3 +69,21 @@ In Progress
 ### Tasks
 
 ![Tasks](screenshots/task_created.png)
+
+## Exercise 3 - Sprint Management
+
+### Capacity Planning
+
+![Capacity](screenshots/capacity-planning.png)
+
+### Sprint Taskboard
+
+![Taskboard](screenshots/sprint-taskboard.png)
+
+### Over Capacity Example
+
+![Over Capacity](screenshots/over-capacity.png)
+
+### Styling Rules
+
+![Styling Rules](screenshots/sprint-styles.png)
