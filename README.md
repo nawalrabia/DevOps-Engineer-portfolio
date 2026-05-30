@@ -87,3 +87,25 @@ In Progress
 ### Styling Rules
 
 ![Styling Rules](screenshots/sprint-styles.png)
+
+## Exercise 4 - Kanban Board Customization
+
+### Tags
+
+![Tags](screenshots/kanban-tags.png)
+
+### QA Approved Column
+
+![QA Approved](screenshots/qa-approved-column.png)
+
+### WIP Limit
+
+![WIP Limit](screenshots/wip-limit-exceeded.png)
+
+### Split Columns
+
+![Split Columns](screenshots/split-column.png)
+
+### Expedite Swimlane
+
+![Swimlane](screenshots/swimlane-expedite.png)
