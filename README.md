@@ -109,3 +109,18 @@ In Progress
 ### Expedite Swimlane
 
 ![Swimlane](screenshots/swimlane-expedite.png)
+
+## Dashboard Overview
+
+![Dashboard Overview](screenshots/dashboard-overview.png)
+
+## Sprint Overview Widget
+
+![Sprint Overview Widget](screenshots/sprint-overview-widget.png)
+
+## Work Item Chart
+
+![Work Item Chart Created Uisng Query](screenshots/queries_chart_creation.png)
+
+
+
