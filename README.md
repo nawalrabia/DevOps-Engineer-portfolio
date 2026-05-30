@@ -54,3 +54,18 @@ In Progress
 ### Area Paths
 
 ![Area Paths](screenshots/area_subarea.png)
+
+## Exercise 2 - Work Item Management
+
+### Epic and Feature Hierarchy
+
+![Epic Feature](screenshots/epic-feature-hierarchy.png)
+
+### Product Backlog Items
+
+![Backlog](screenshots/backlog-items-backlogs.png)
+![Backlog](screenshots/backlog-items-feature.png)
+
+### Tasks
+
+![Tasks](screenshots/task-created.png)
