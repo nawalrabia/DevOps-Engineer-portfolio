@@ -10,6 +10,8 @@ This repository contains hands-on AZ-400 labs completed using Azure DevOps and A
 |-------|------------|
 | [Lab 01](labs/lab01-azure-boards-agile-planning/) | Azure Boards Agile Planning & Portfolio Management |
 | [Lab 02](labs/lab02-agent-pools-yaml-pipelines/) | Configure Agent Pools & YAML Pipelines |
+| Lab 03 | Continuous Integration with Azure Pipelines |
+
 
 ---
 
