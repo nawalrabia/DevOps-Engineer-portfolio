@@ -44,13 +44,14 @@ WEBAPP-NAME: eshoponweb-webapp-sptest001
 ```md
 ## Screenshots
 
-### Repository Imported
 
-![Repository Imported](screenshots/github-repository-imported.png)
 
 ### Azure Credentials Secret
 
 ![Azure Secret](screenshots/github-secret-created.png)
+
+###Azure Rep Secret
+![Azure Secret](screenshots/rep-secret.png)
 
 ### Successful GitHub Actions Workflow
 
