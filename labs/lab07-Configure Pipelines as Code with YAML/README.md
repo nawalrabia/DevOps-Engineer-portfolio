@@ -122,4 +122,4 @@ Manual approval gate configured through Azure DevOps Environments.
 
 Shows successful deployment to Azure App Service.
 
-![Deployment Logs](screenshots/06-deploy-stage.png)
+![Deployment Logs](screenshots/01-pipeline-success.png)
