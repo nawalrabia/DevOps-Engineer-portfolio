@@ -1,115 +1,129 @@
-# Control Deployments using Release Gates (Azure DevOps)
+# 🚀 Control Deployments using Release Gates (Azure DevOps)
 
 ## 📌 Overview
 
-This project demonstrates how to implement **controlled CI/CD deployments using Azure DevOps Release Pipelines with Approvals and Release Gates**.
+This project demonstrates how to implement **controlled CI/CD deployments using Azure DevOps Release Pipelines**, including:
 
-The solution simulates a real-world DevOps workflow where deployments are only promoted to production after meeting defined quality and monitoring conditions.
+- Multi-stage deployments (DevTest → Production)
+- Manual approvals before deployment
+- Automated release gates using Azure Monitor
+- Application Insights integration for deployment safety
 
----
-
-## 🎯 Objectives
-
-- Configure Azure DevOps CI/CD pipelines
-- Deploy application to multiple environments (DevTest & Production)
-- Implement **pre-deployment approvals**
-- Implement **post-deployment release gates using Azure Monitor**
-- Block production deployment when application issues are detected
+The goal is to simulate a real-world DevOps pipeline where production releases are controlled, validated, and monitored.
 
 ---
 
 ## 🏗️ Architecture
 
-- Azure DevOps YAML CI Pipeline (build)
-- Classic Release Pipeline (CD)
-- Azure App Service (DevTest & Production)
-- Application Insights (monitoring)
-- Azure Monitor Alerts (quality gate)
+- **Azure DevOps CI Pipeline (YAML)** – Builds and publishes artifacts  
+- **Azure DevOps Release Pipeline (Classic)** – Manages deployments  
+- **Azure App Service** – Hosts DevTest and Production environments  
+- **Application Insights** – Monitors application health  
+- **Azure Monitor Alerts** – Acts as release gates  
 
 ---
 
-## 🔧 Tools & Services Used
+## 🔄 CI/CD Workflow
 
-- Azure DevOps Pipelines
-- Azure App Service
-- Azure Monitor / Application Insights
-- GitHub (repository hosting)
-- Azure CLI
-
----
-
-## 🚀 Pipeline Flow
-
-1. Code committed to repository
-2. CI pipeline builds .NET application
-3. Artifact published (Web.zip)
+1. Code pushed to repository
+2. CI pipeline builds .NET 8 application
+3. Build artifact (Web.zip) generated
 4. Release pipeline triggered automatically
 5. Deployment to **DevTest environment**
-6. Pre-deployment approval required
-7. Post-deployment gate checks:
-   - Azure Monitor alerts
-8. If no active issues → deploy to Production
+6. Manual approval required before DevTest deployment
+7. Post-deployment gate checks Azure Monitor alerts
+8. If healthy → deployment proceeds to **Production**
 
 ---
 
-## 🔐 Release Gates Configured
+## 🔐 Release Gates Implementation
 
-### Pre-Deployment Gate
+### ✅ Pre-Deployment Gate (Approval)
 - Manual approval required before DevTest deployment
+- Ensures human validation before release
 
-### Post-Deployment Gate
-- Azure Monitor Alerts query
+### 🚦 Post-Deployment Gate (Azure Monitor)
+- Queries Application Insights alerts
 - Blocks promotion if:
   - Failed requests exist
-  - Active alerts detected in Application Insights
+  - Active alerts are detected
+- Automatically re-evaluates every few minutes
 
 ---
 
 ## 🧪 Test Scenario
 
-- Application deliberately triggered error using `/discount`
-- Application Insights captured failed requests
-- Alert created (Severity 2)
-- Release gate blocked production deployment
+To validate the release gates:
+
+- Triggered a failed request using `/discount`
+- Application Insights detected errors
+- Severity 2 alert was generated
+- Release gate detected issue and controlled deployment flow
 
 ---
 
 ## 📸 Screenshots
 
-> Add screenshots in a `/screenshots` folder
+### 🧩 CI Pipeline (Build Success)
 
-### 1. Azure DevOps CI Pipeline Run
-`screenshots/ci-pipeline-success.png`
+![CI Pipeline Success](screenshots/ci-pipeline-success.png)
 
-### 2. Release Pipeline Stages (DevTest + Production)
-`screenshots/pipeline_stages_success.png`
+---
 
-### 3. Pre-Deployment Approval Gate
-`screenshots/pre-deployment-approval.png`
+### 🚀 Release Pipeline Stages (DevTest & Production)
 
-### 4. Post-Deployment Gate Configuration
-`screenshots/post-deployment-gate.png`
+![Release Pipeline Stages](screenshots/release-stages.png)
 
-### 5. Application Insights Alert
-`screenshots/app-insights-alert.png`
+---
 
-### 6. Failed Request Trigger (/discount page)
-`screenshots/webapp-error.png`
+### 🔐 Pre-Deployment Approval Gate
 
-### 7. Production Deployment Blocked / Passed Gate
-`screenshots/gate-evaluation.png`
+![Pre-Deployment Approval](screenshots/pre-deployment-approval.png)
+
+---
+
+### 📊 Application Insights Alert
+
+![Application Insights Alert](screenshots/app-insights-alert.png)
+
+---
+
+### 🚦 Post-Deployment Gate Configuration
+
+![Post Deployment Gate](screenshots/post_deployment_gates.png)
+
+---
+
+### ⚠️ Failed Request Triggered (/discount)
+
+![Web App Error](screenshots/webapp-error.png)
+
+---
+
+### ⏳ Gate Evaluation Blocking/Allowing Deployment
+
+![Gate Evaluation](screenshots/gate-evaluation.png)
 
 ---
 
 ## 🧠 Key Learnings
 
-- How release gates enforce production safety
-- Integration of monitoring into CI/CD pipelines
-- Using Azure Monitor as a deployment control mechanism
-- Implementing approval-based deployment strategy
+- How to implement enterprise-grade release controls
+- Using Azure Monitor as a deployment quality gate
+- Integrating observability into CI/CD pipelines
+- Managing safe production deployments with approvals + automation
 
 ---
 
-## 📌 Conclusion
+## 🔥 Why This Project Matters
 
-This project demonstrates a production-grade CI/CD pipeline with governance controls, ensuring only validated and healthy deployments reach production.
+This setup reflects real-world DevOps practices used in production systems:
+
+- Prevents faulty deployments
+- Enforces governance and approvals
+- Integrates monitoring into release decisions
+- Reduces production incidents through automated quality checks
+
+---
+
+## 📁 Repository Structure
