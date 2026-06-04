@@ -103,6 +103,7 @@ To validate the release gates:
 ### ⏳ Gate Evaluation Blocking/Allowing Deployment
 
 ![Gate Evaluation](screenshots/gate-evaluation.png)
+![Gate Evaluation](screenshots/post_deployment_gates.png)
 
 ---
 
