@@ -76,16 +76,9 @@ Code reuse
 Maintainability
 Separation of concerns
 
-## 📸 Screenshots
-
-
-
-
-
-### 🧱 Bicep Template Review
+## 📸 Screenshots### 🧱 Bicep Template Review
 ![Bicep File](screenshots/browsebicepfile.png)
 
----
 
 ### 🚀 Successful Deployment
 ![Deployment](screenshots/deploy.png)
