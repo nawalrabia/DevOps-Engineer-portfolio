@@ -78,15 +78,14 @@ Separation of concerns
 
 ## 📸 Screenshots
 
-### 🟦 Azure DevOps Project Setup
-![Create Project](./screenshots/create-project.png)
+
 
 
 
 ### 🧱 Bicep Template Review
-![Bicep File](./screenshots/browsebicepfile.png)
+![Bicep File](screenshots/browsebicepfile.png)
 
 ---
 
 ### 🚀 Successful Deployment
-![Deployment](./screenshots/deploy.png)
+![Deployment](screenshots/deploy.png)
