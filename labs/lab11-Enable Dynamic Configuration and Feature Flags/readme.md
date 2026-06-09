@@ -160,37 +160,6 @@ This demonstrates feature toggling without application releases.
 
 ---
 
-## 📸 Screenshots
-
-### Azure DevOps CI Pipeline
-
-![CI Pipeline](./screenshots/ci-pipeline.png)
-
-### Azure DevOps CD Pipeline
-
-![CD Pipeline](./screenshots/cd-pipeline.png)
-
-### Azure App Configuration Resource
-
-![App Configuration](./screenshots/app-configuration.png)
-
-### Managed Identity Configuration
-
-![Managed Identity](./screenshots/managed-identity.png)
-
-### Configuration Explorer
-
-![Configuration Explorer](./screenshots/configuration-explorer.png)
-
-### Feature Manager
-
-![Feature Manager](./screenshots/feature-manager.png)
-
-### Dynamic Configuration Result
-
-![Website Result](./screenshots/website-result.png)
-
----
 
 ## 🧠 Key Learnings
 
