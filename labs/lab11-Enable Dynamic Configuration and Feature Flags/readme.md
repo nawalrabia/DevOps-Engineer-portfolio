@@ -245,5 +245,3 @@ Portfolio project completed as part of Azure DevOps (AZ-400) hands-on lab exerci
 ### Dynamic Configuration Result
 ![Dynamic Configuration Result](screenshots/dynamic-config-result.png)
 
-### Feature Flag Enabled
-![Feature Flag Enabled](screenshots/feature-flag-enabled.png)

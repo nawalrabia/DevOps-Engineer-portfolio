@@ -69,7 +69,7 @@ module storageModule './storage.bicep' = {
     storageAccountName: storageAccountName
   }
 }
-
+```
 This improves:
 
 Code reuse
