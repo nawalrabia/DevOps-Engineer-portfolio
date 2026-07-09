@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This project demonstrates an end-to-end CI/CD pipeline using Azure DevOps to:
+This lab demonstrates an end-to-end CI/CD pipeline using Azure DevOps to:
 
 - Build a Docker image from a .NET 8 web application
 - Push the image to Azure Container Registry (ACR)
