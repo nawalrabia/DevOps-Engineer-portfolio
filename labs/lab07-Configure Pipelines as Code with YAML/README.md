@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This project demonstrates how to implement a complete **CI/CD pipeline using YAML in Azure DevOps**.
+This lab demonstrates how to implement a complete **CI/CD pipeline using YAML in Azure DevOps**.
 
 The pipeline:
 - Builds a .NET application
